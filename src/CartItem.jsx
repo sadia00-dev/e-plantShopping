@@ -1,6 +1,11 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { decrementQuantity, incrementQuantity, removeItem } from './CartSlice'
+import {
+  decrementQuantity,
+  incrementQuantity,
+  updateQuantity,
+  removeItem
+} from './CartSlice'
 
 function CartItem() {
   const dispatch = useDispatch()
@@ -52,7 +57,19 @@ function CartItem() {
                 ${item.price.toFixed(2)} each
               </p>
             </div>
-
+              <input
+  type="number"
+  min="1"
+  value={item.quantity}
+  onChange={(e) =>
+    dispatch(
+      updateQuantity({
+        id: item.id,
+        quantity: Number(e.target.value),
+      })
+    )
+  }
+/>
             <div className="cart-row-quantity">
               <button
                 className="qty-btn"
