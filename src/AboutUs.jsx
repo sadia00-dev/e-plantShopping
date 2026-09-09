@@ -1,31 +1,31 @@
+```jsx
 function AboutUs() {
   return (
-    <section className="about-page">
-      <div className="about-card">
-        <h1>About Paradise Nursery</h1>
-        <p>
-          Paradise Nursery started in a single greenhouse with one simple
-          belief: every home deserves something green and growing. What
-          began as a weekend plant stall has grown into a small team of
-          growers, horticulturists, and plant lovers dedicated to raising
-          healthy, resilient plants and getting them safely into your hands.
-        </p>
-        <p>
-          We hand-select every plant in our collection, from easygoing
-          succulents to statement flowering varieties, and we grow with
-          sustainable, pesticide-light practices whenever possible. Our team
-          inspects each plant before it ships, so what arrives at your door
-          is ready to thrive, not just survive.
-        </p>
-        <p>
-          Whether you are furnishing your first apartment, building a jungle
-          of houseplants, or looking for a thoughtful gift, our goal is the
-          same: to make choosing and caring for plants simple, and to help a
-          little more green find its way into everyday life.
-        </p>
-      </div>
-    </section>
+    <div className="about-us-container">
+      <h1>About Paradise Nursery</h1>
+
+      <p>
+        Paradise Nursery is an online plant shop created to make it easy
+        for plant lovers to discover and purchase beautiful houseplants.
+      </p>
+
+      <p>
+        We provide a carefully selected collection of healthy indoor plants,
+        including air-purifying plants, succulents, cacti, and flowering plants.
+      </p>
+
+      <p>
+        Our mission is to bring nature closer to people's homes by providing
+        quality plants and a simple, enjoyable online shopping experience.
+      </p>
+
+      <p>
+        Paradise Nursery is committed to helping customers create greener,
+        healthier, and more beautiful living spaces.
+      </p>
+    </div>
   )
 }
 
 export default AboutUs
+```
