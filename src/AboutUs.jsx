@@ -1,4 +1,4 @@
-```jsx
+
 function AboutUs() {
   return (
     <div className="about-us-container">
@@ -28,4 +28,4 @@ function AboutUs() {
 }
 
 export default AboutUs
-```
+
